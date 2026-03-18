@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Lab 1 Question 3">
+        <meta name="keywords" content="HTML, Form">
+        <meta name="author" content="Harith">
+        <title>Lab 1 Question 3</title>
+    </head>
+    <body>
+        <tr colspan = "2"><h2 style = "text-align: center">Your Personal Details</h2></tr>
+        <form>
+            <table>
+            <tr>
+                <td>Your Name: </td>
+                <td><input type= "text" name = "firstname"></td>
+            </tr>    
+            <tr>
+                <td>Student Number: </td>
+                <td><input type = "text" name = "studentnum"></td>
+            </tr>
+            <tr>
+                <td>Program</td>
+                <td><select name = "program">
+                    <option selected = "selected">Diploma in Computer Science</option>
+                    <option>Bachelor of Computer Science (Software Engineering) with Honours</option>
+                    <option>Bachelor of Computer Science (Computer System and Networking) with Honours</option>
+                    <option>Bachelor of Computer Science (Multimedia Software) with Honours</option>
+                    <option>Bachelor of Computer Science (Cyber Security) with Honours</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td>
+                    <input type = "radio" name = "gender" value = "male">Male
+                    <input type = "radio" name = "gender" value = "female">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Hobby: </td>
+                <td>
+                    <input type = "checkbox" name = "hobby" value = "reading">Reading
+                    <input type = "checkbox" name = "hobby" value = "outdoor sports">Outdoor Sports
+                    <input type = "checkbox" name = "hobby" value = "watching tv">Watching TV
+                    <input type = "checkbox" name = "hobby" value = "sleeping">Sleeping
+                </td>
+            </tr>
+            <tr>
+                <td>Comments: </td>
+                <td><textarea name = "comments" rows = "4" cols = "36"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type = "submit" value = "Submit">
+                    <input type = "reset" value = "Reset">
+                </td>
+            </tr>
+            </table>
+        </form>
+    </body>
+</html>

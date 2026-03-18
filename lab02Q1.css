@@ -1,0 +1,28 @@
+th{
+    width: 100px;
+}
+
+th:hover{
+    color: turquoise;
+}
+
+.intro{
+    background-image: url('img/FK4.png');
+    background-size: 100% 100%;
+    color: white;
+    padding: 40px;
+    margin: 0; 
+    padding: 0;
+}
+
+.programs{
+    background-color: turquoise;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
