@@ -1,0 +1,11 @@
+table{
+    border: 1px solid blue;
+}
+
+.headCol{/*for Profile, Edu background, Awards, and Hobby rows*/
+    background-color: lightblue;
+}
+
+.attributes{/*for Name, Matric No, Course, and Year rows*/
+    background-color: lightcyan;
+}
