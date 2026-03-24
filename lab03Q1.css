@@ -1,0 +1,11 @@
+header{
+    background-image: url("img/bg-header.jpg");
+    background-size: cover;
+    min-height: 200px;
+}
+
+footer{
+    background-image: url("img/bg-footer.jpg");
+    background-size: cover;
+    min-height: 100px;
+}
